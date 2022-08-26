@@ -4,6 +4,8 @@
   "description": "Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀",
   "main": "index.js",
   "scripts": {
+    "start": "docker start mongodb",
+    "container": "docker run -d --name=mongodb -v \"$PWD:/app\" -p 27017:27017 mongo",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
   },
   "repository": {
