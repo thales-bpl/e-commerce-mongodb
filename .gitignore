@@ -9,4 +9,4 @@ assets/produtos.bson
 node_modules
 
 # mongodb queries
-./challenges/**.mongodb
+challenges/**.mongodb
