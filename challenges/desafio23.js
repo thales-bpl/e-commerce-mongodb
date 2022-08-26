@@ -5,4 +5,4 @@ db.produtos.updateMany(
   },
 );
 
-db.produtos.find({}, { nome: true, tags: true, _id: 0 });
+db.produtos.find({}, { _id: 0, nome: true, tags: true });
